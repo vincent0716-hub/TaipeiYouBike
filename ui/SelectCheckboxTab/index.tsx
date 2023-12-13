@@ -6,6 +6,7 @@ import Stack from '@mui/joy/Stack';
 import Autocomplete from '@mui/joy/Autocomplete';
 import Image from 'next/image';
 import Bikes from '../../public/bikes.png'
+import DoubleBikes from '../../public/Frame.png'
 import { TableForm, top100Films, checkboxDataForm } from '../../utils/globalType'
 import { TaipeiCityArea, HsinChuCityArea, HsinChuMock } from '../../Data/mockData'
 import CheckBocArea from '../../ui/CheckBocArea'
@@ -120,11 +121,13 @@ const SelectCheckboxTab = ({ fetchedDataForTableForm, setUpdatedFetchedDataForTa
             }} className=" items-center justify-between  w-1/2 flex"
             >
                 <Image
-                    src={Bikes}
+                    src={DoubleBikes}
                     alt=""
-                    style={{ width: '150%', height: '150%', }}
-                    width={500}
-                    height={300}
+                    style={{
+                        width: 600,
+                        marginTop: '13rem'
+                    }}
+                    width={300}
                 />
             </div>
         </section>
