@@ -78,7 +78,7 @@ const SelectCheckboxTab = ({ fetchedDataForTableForm, setUpdatedFetchedDataForTa
                     display: 'flex',
                     alignItems: 'center',    // Align items in the center
                     gap: '5px',
-                    flexDirection: isMobile ? 'column' : '',
+                    flexDirection: isMobile ? 'column' : 'row',
                 }} className=" items-center flex  gap-5">
                     <Select
                         placeholder="選擇縣市"
